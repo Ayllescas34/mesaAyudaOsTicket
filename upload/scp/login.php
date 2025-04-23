@@ -92,6 +92,7 @@ if ($_POST) {
 
     $resultado = loginExterno($username, $password, 'osTicket')
 }*/
+
 elseif ($_POST
         && !strcmp($_POST['do'], '2fa')
         && $thisstaff

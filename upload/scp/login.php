@@ -86,12 +86,7 @@ if ($_POST) {
     }
 }*/
 
-/*if ($_POST && isset($_POST['userid'])){
-    $userame = trim($_POST['userid']);
-    $password = trim($_POST['passwd']);
 
-    $resultado = loginExterno($username, $password, 'osTicket')
-}*/
 
 elseif ($_POST
         && !strcmp($_POST['do'], '2fa')
